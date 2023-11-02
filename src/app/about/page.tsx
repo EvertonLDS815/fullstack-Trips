@@ -1,4 +1,4 @@
-import Trips from "./components/Trips"
+import Trip from "./components/Trip"
 
 export const metadata = {
     title: 'About'
@@ -7,8 +7,10 @@ export const metadata = {
 function Page() {
 
     return (
-        <h1>Everton</h1>
-        <Trips />
+        <>
+            <h1>Everton</h1>
+            <Trip />
+        </>
     )
 }
 
